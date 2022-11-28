@@ -51,7 +51,7 @@ public class ScoreService {
 			
 		}
 		
-		double avg = sum / movie.getScore().size();
+		double avg = sum / movie.getScore().SIZE;
 		
 		movie.setScore(avg);
 		movie.setCount(movie.getScores().size());
